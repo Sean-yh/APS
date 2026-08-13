@@ -1,0 +1,45 @@
+.DS_Store
+.env
+__pycache__/
+*.pyc
+.venv/
+backend/process/.mplconfig/
+backend/process/orders_erp.json
+backend/process/inventory_erp.json
+backend/process/schedule_result.json
+backend/process/schedule_gantt.html
+backend/process/overrides.json
+backend/process/agent_state.json
+backend/process/schedules/
+erp_outputs/
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/out/
+
+# 内部需求文档（不上传）
+.docs/
+
+# Local dev server artifacts
+uvicorn.log
+.uvicorn.pid
+
+# Git worktrees (local dev)
+.worktrees/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+
+# Local DB (SQLite) used for dev/testing
+*.db
+*.sqlite
+*.sqlite3
+
+# 本地工具运行时（如下载的 Node）
+.tools/
